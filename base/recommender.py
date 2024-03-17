@@ -69,14 +69,14 @@ class Recommender(object):
         self.print_model_info()
         print('Initializing and building model...')
         self.build()
-        print('eval')
-        self.final_eval()
+        #print('eval')
+        #self.final_eval()
         
         #print('visualization')
         #self.vis()
         
-        #print('Training Model...')
-        #self.train()
+        print('Training Model...')
+        self.train()
         print('Testing...')
         rec_list = self.test()
         print('Evaluating...')
