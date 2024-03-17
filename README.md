@@ -2,7 +2,7 @@
 implementation of SACL: Siamese Adaptive Contrastive Learning for Recommendation
 
 ## Prerequisites
-This implementation is based on [SELFRec]:https://github.com/Coder-Yu/SELFRec. 
+This implementation is based on [SELFRec](https://github.com/Coder-Yu/SELFRec) where you can understand the framework of this project. 
 1. conda enviroment:\
 pytorch 1.8.0 cuda 11.1 recommended\
 
