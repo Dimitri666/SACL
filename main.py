@@ -31,18 +31,19 @@ class SELFRec(object):
 
 if __name__ == '__main__':
     # added models
-    all_models = ['SGL', 'SimGCL', 'DiffGCL', 'ADGCL', 'HCCL', 'ADGCL', 'CAFI', 'SIAB', 'NCL', 'MixGCF', 'DirectAU', 'LightGCN']
+    #all_models = ['SGL', 'SimGCL', 'DiffGCL', 'ADGCL', 'HCCL', 'ADGCL', 'CAFI', 'SIAB', 'NCL', 'MixGCF', 'DirectAU', 'LightGCN']
 
-    print('=' * 80)
+    #print('=' * 80)
     
     
-    parser = argparse.ArgumentParser(description='model name')
+    #parser = argparse.ArgumentParser(description='model name')
     
-    parser.add_argument('-name', '--modelname', type=str, help='modelname')
+    #parser.add_argument('-name', '--modelname', type=str, help='modelname')
     
-    args = parser.parse_args()
+    #args = parser.parse_args()
     
-    model = args.modelname
+    #model = args.modelname
+    model = 'SACL'
     import time
 
     s = time.time()
