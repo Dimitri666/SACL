@@ -1,5 +1,5 @@
 # SACL
-implementation of SACL: Siamese Adaptive Contrastive Learning for Recommendation
+Implementation of SACL: Siamese Adaptive Contrastive Learning for Recommendation
 
 ## Prerequisites
 This implementation is based on [SELFRec](https://github.com/Coder-Yu/SELFRec) where you can understand the framework of this project. 
