@@ -124,7 +124,7 @@ class SACL(GraphRecommender):
         model = restore_best_checkpoint(ep, model, self.save_dir, self.device)
         with torch.no_grad():
             self.group_evaluation(model)
-    
+    '''
     def vis(self):
         with torch.no_grad():
             model = self.model.cuda()
@@ -146,7 +146,7 @@ class SACL(GraphRecommender):
             data_ = torch.cat([item_emb1[:10,:], item_emb2[:10,:], user_emb2[10:100,:]], dim=0).cpu()
             save_path = self.save_dir + 'item_emb2d.png'
             vis_2d(data_, label, 'item_embs', save_path)
-        
+       ''' 
 class SACL_Encoder(nn.Module):
     def __init__(self, data, emb_size, n_layers, temp, beta, maxepoch, aug_type, drop_rate, alpha):
         super(SACL_Encoder, self).__init__()
